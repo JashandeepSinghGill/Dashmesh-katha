@@ -1,0 +1,146 @@
+.player_container {
+  width: 70%;
+  height: 95vh;
+  padding: 1rem;
+  border: 1px solid rgb(141, 141, 141);
+  border-radius: 10px;
+  color: rgb(218, 218, 218);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(17, 0, 254, 0.733);
+
+  > * {
+    padding: 1rem 0;
+    color: rgb(202, 202, 202);
+  }
+
+  .title {
+    font-size: 32px;
+  }
+  .navigation {
+    width: 100%;
+
+    .navigation_wrapper {
+      min-width: 100%;
+      background-color: rgb(255, 255, 255);
+      height: 10px;
+      border-radius: 30px;
+      cursor: pointer;
+
+      .seek_bar {
+        width: 0;
+        height: 100%;
+        background-color: rgb(250, 137, 0);
+        border-radius: 30px;
+      }
+      .current_time {
+        float: left;
+      }
+      .total_time {
+        float: right;
+      }
+    }
+  }
+  .controls {
+    font-size: inherit;
+    display: flex;
+    align-items: center;
+
+    .btn_action {
+      font-size: 2rem;
+      margin: 0 1rem;
+      cursor: pointer;
+      color: white;
+
+      &:hover {
+        color: rgb(250, 137, 0);
+      }
+    }
+
+    .pp {
+      font-size: 4rem;
+    }
+  }
+  .coverPic {
+    width: 55%;
+    display: flex;
+    .pic {
+      width: 100%;
+      height: 50vh;
+    }
+  }
+}
+@media only screen and (max-device-width: 480px) {
+  .player_container {
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+    border: 1px solid rgb(141, 141, 141);
+    border-radius: 10px;
+    color: rgb(218, 218, 218);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(45deg, rgb(17, 0, 254), white);
+
+    > * {
+      padding: 1rem 0;
+      color: rgb(202, 202, 202);
+    }
+
+    .title {
+      padding-top: 2rem;
+      color: rgb(250, 137, 0);
+      font-size: 32px;
+    }
+    .navigation {
+      width: 100%;
+
+      .navigation_wrapper {
+        min-width: 100%;
+        background-color: rgb(255, 255, 255);
+        height: 5px;
+        border-radius: 30px;
+        cursor: pointer;
+
+        .seek_bar {
+          width: 0;
+          height: 100%;
+          background-color: rgb(250, 137, 0);
+          border-radius: 30px;
+        }
+      }
+    }
+    .controls {
+      font-size: inherit;
+      display: flex;
+      align-items: center;
+
+      .btn_action {
+        font-size: 2rem;
+        margin: 0 1rem;
+        cursor: pointer;
+        color: white;
+
+        &:hover {
+          color: rgb(250, 137, 0);
+        }
+      }
+
+      .pp {
+        font-size: 4rem;
+      }
+    }
+    .coverPic {
+      display: flex;
+      width: 100%;
+      .pic {
+        width: 100%;
+        height: 50vh;
+      }
+    }
+  }
+}

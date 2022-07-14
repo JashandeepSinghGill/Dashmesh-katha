@@ -1,0 +1,20 @@
+{
+  "cSpell.ignoreWords": ["Katha"],
+  "cSpell.words": [
+    "divprogress",
+    "isplaying",
+    "setcan",
+    "setisplaying",
+    "settrack",
+    "skipto",
+    "songsdata"
+  ],
+  "cSpell.customDictionaries": {
+    "custom-dictionary-workspace": {
+      "name": "custom-dictionary-workspace",
+      "path": "${workspaceFolder:Katha}/.cspell/custom-dictionary-workspace.txt",
+      "addWords": true,
+      "scope": "workspace"
+    }
+  }
+}
