@@ -133,7 +133,7 @@ const Player = ({
               ? isSetToPlay
                 ? convertTimeInMins(audioElem.current.duration)
                 : "00:00"
-              : ""}
+              : "00:00"}
           </div>
         </div>
       </div>
