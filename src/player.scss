@@ -1,6 +1,6 @@
 .player_container {
   width: 70%;
-
+  height: 95vh;
   padding: 1rem;
   border: 1px solid rgb(141, 141, 141);
   border-radius: 10px;
@@ -9,23 +9,24 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(17, 0, 254, 0.733);
-
-  > * {
+  background-color: white;
+  box-shadow: 2px 3px;
+  border > * {
     padding: 1rem 0;
-    color: rgb(202, 202, 202);
+    color: rgb(21, 0, 246);
   }
 
   .title {
     font-size: 32px;
+    color: black;
   }
   .navigation {
     width: 100%;
 
     .navigation_wrapper {
       min-width: 100%;
-      background-color: rgb(255, 255, 255);
-      height: 10px;
+      background-color: rgba(250, 138, 1, 0.457);
+      height: 2vh;
       border-radius: 30px;
       cursor: pointer;
 
@@ -45,14 +46,13 @@
   }
   .controls {
     font-size: inherit;
-    display: flex;
     align-items: center;
 
     .btn_action {
       font-size: 2rem;
       margin: 0 1rem;
       cursor: pointer;
-      color: white;
+      color: rgb(39, 2, 247);
 
       &:hover {
         color: rgb(250, 137, 0);
@@ -68,27 +68,28 @@
     display: flex;
     .pic {
       width: 100%;
-      height: 50vh;
     }
   }
 }
 @media only screen and (max-device-width: 480px) {
+  input:focus {
+  }
   .player_container {
-    width: 100%;
-    height: 100vh;
+    width: 100vw;
+    height: 90vh;
     padding: 1rem;
     border: 1px solid rgb(141, 141, 141);
     border-radius: 10px;
     color: rgb(218, 218, 218);
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-image: linear-gradient(45deg, rgb(17, 0, 254), white);
+    background-color: white;
+    box-shadow: 2px 3px;
 
     > * {
       padding: 1rem 0;
-      color: rgb(202, 202, 202);
+      color: rgb(21, 0, 246);
     }
 
     .title {
@@ -97,12 +98,14 @@
       font-size: 32px;
     }
     .navigation {
+      position: relative;
+      display: inline-flex;
       width: 100%;
 
       .navigation_wrapper {
         min-width: 100%;
-        background-color: rgb(255, 255, 255);
-        height: 5px;
+        background-color: rgba(250, 137, 0, 0.586);
+        height: 0.5vh;
         border-radius: 30px;
         cursor: pointer;
 
@@ -116,14 +119,13 @@
     }
     .controls {
       font-size: inherit;
-      display: flex;
       align-items: center;
 
       .btn_action {
         font-size: 2rem;
         margin: 0 1rem;
         cursor: pointer;
-        color: white;
+        color: rgb(2, 64, 250);
 
         &:hover {
           color: rgb(250, 137, 0);
@@ -139,7 +141,6 @@
       width: 100%;
       .pic {
         width: 100%;
-        height: 50vh;
       }
     }
   }

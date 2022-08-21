@@ -16,11 +16,11 @@
 exports.songsdata = [
   {
     title: "manglacharn",
-    url: "https://drive.google.com/uc?id=1g0zvdusC4pEDbAHTBRdQcrZ1-F8zQ5f5&export=view",
+    url: "https://drive.google.com/open?id=1g0zvdusC4pEDbAHTBRdQcrZ1-F8zQ5f5&export=view",
   },
   {
     title: "PART_1",
-    url: "https://drive.google.com/uc?id=1EopaMmp4l0ymUl7jKBMz6sTx9vPpF9zU&export=view",
+    url: "https://drive.google.com/uc?id=1EopaMmp4l0ymUl7jKBMz6sTx9vPpF9zU&export=download",
   },
   {
     title: "PART_2",
@@ -28,7 +28,7 @@ exports.songsdata = [
   },
   {
     title: "PART_3",
-    url: "https://drive.google.com/uc?id=15z4XYVFuBu6sqXWcnVPsWkDtDZs_0Fei&export=view",
+    url: "https://drive.google.com/uc?id=15z4XYVFuBu6sqXWcnVPsWkDtDZs_0Fei&export=download",
   },
   {
     title: "PART_4",

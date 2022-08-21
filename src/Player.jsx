@@ -129,7 +129,7 @@ const Player = ({
               : ""}
           </div>
           <div className="total_time">
-            {audioElem.current
+            {isNaN
               ? isSetToPlay
                 ? convertTimeInMins(audioElem.current.duration)
                 : "00:00"
@@ -145,7 +145,10 @@ const Player = ({
             onClick={PlayPause}
           />
         ) : (
-          <BsFillPlayCircleFill className="btn_action pp" onClick={PlayPause} />
+          <BsFillPlayCircleFill
+            className="btn_action pp"
+            onClickCapture={PlayPause}
+          />
         )}
         <BsFillSkipEndCircleFill className="btn_action" onClick={skiptoNext} />
       </div>
