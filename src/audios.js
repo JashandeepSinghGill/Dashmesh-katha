@@ -16,7 +16,7 @@
 exports.songsdata = [
   {
     title: "manglacharn",
-    url: "https://drive.google.com/open?id=1g0zvdusC4pEDbAHTBRdQcrZ1-F8zQ5f5&export=view",
+    url: "https://drive.google.com/uc?id=1g0zvdusC4pEDbAHTBRdQcrZ1-F8zQ5f5&export=view",
   },
   {
     title: "PART_1",
